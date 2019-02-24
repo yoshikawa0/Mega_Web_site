@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+	background-color: #7B68EE;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+	margin-top: 70px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #00008B;
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+	color: 	#00008B;
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	color: #00008B;
+}
+
+a:hover, a:focus {
+	color: #00FFFF;
+	text-decoration: none;
+	outline: 0;
+}
+
+	hr {
+		display: block;
+		height: 1px;
+		border: 0;
+		border-top: 1px solid #ccc;
+		margin: 1em 0;
+		padding: 0;
+	}
+
+.navbar {
+		font-weight: 800;
+		font-size: 14px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+.navbar-inverse {
+		background: #000000;
+		border-color: #FFFFFF;
+	}
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #4B0082;
+}
+.navbar-inverse .navbar-brand {
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+#headerwrap {
+	background: url(../images/free-pc-wallpapers-desktop-backgrounds-8.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+
+    background-size: 100%;
+
+	background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-top: 100px;
+	color: white;
+	font-size: 50px;
+	font-weight: 200;
+	letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+color: white;
+font-size: 30px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.w {
+	padding-top: 35px;
+}
+
+.w h4 {
+	font-size: 20px;
+}
+
+#dg {
+	background: #E0FFFF;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#dg h4 {
+	font-size: 35px;
+}
+
+.tilt {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.tilt:hover {
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+.wb {
+	padding-top: 35px;
+	margin-bottom: 
+}
+
+.wb h4 {
+	font-size: 35px;
+}
+
+#lg {
+	background: #E0FFFF;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#lg h4 {
+	font-size: 40px;
+}
+
+#rr {
+	background: #000080;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#rr h4 {
+	color: white;
+	font-size: 45px;
+}
+
+#rr p {
+	color: white;
+}
+
+#ff {
+	background: #000000;
+	padding-top: 5px;
+	padding-bottom: : 10px;
+}
+
+#gg {
+	background: url(../images/images11.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+
+    background-size: 100%;
+
+	background-size: cover;
+}
+
+#gg h1 {
+	margin-top: 100px;
+	color: white;
+	font-size: 50px;
+	font-weight: 200;
+	letter-spacing: 3px;
+}
+
+#gg h2 {
+color: white;
+font-size: 30px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+#lq {
+	background: #E0FFFF;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#lq h4 {
+	font-size: 40px;
+}
+
+#llq {
+	background: #7B68EE;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#llq h4 {
+	font-size: 40px;
+}
+
+#kk {
+	background: url(../images/images0.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+
+    background-size: 100%;
+
+	background-size: cover;
+}
+
+#kk h1 {
+	margin-top: 100px;
+	color: white;
+	font-size: 50px;
+	font-weight: 200;
+	letter-spacing: 3px;
+}
+
+#kk h2 {
+color: white;
+font-size: 30px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+#tt {
+	background: #0000FF;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#tt h4 {
+	color: white;
+	font-size: 45px;
+}
+
+#tt p {
+	color: white;
+}
+
+#tv {
+	background: #4169E1;
+	padding-top: 67px;
+	padding-bottom: 55px;
+}
+
+#tv h4 {
+	color: white;
+	font-size: 45px;
+}
+
+#tv p {
+	color: white;
+}
+
+#v {
+	background: #C71585;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#v h4 {
+	font-size: 40px;
+}
+
+
+.item-responsive {
+  position: relative; /* относительное позиционирование */
+}
+.item-responsive:before {
+  display: block; /* отображать элемент как блок */
+  content: ""; /* содержимое псевдоэлемента */
+  width: 100%; /* ширина элемента */
+}
+.item-16by9 {
+  padding-top: 56.25%; /* (9:16)*100% */
+}
+.item-responsive>.content {
+  position: absolute; /* абсолютное положение элемент */
+  /* положение элемента */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover !important;
+}  
+
+#cart  {
+	color: white;
+	font-size: 30px;
+	font-weight: 200;
+	letter-spacing: 3px;
+}
+
+#cart h1 {
+	color: white;
+	font-size: 30px;
+	font-weight: 200;
+	letter-spacing: 3px;
+}
+
+#plus1, #plus2, #plus3{
+display: none;
+}
