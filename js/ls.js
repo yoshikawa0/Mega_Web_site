@@ -1,6 +1,8 @@
 var storageName="cart";
-
-// сохранить предмет в корзину
+/**
+ * save item to cart
+ * @param {string} item - The value of the item.
+ */
 function save(item) {
 	let itemsArray = getStoreArray(storageName);
 	itemsArray.push(item);
