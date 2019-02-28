@@ -1,3 +1,7 @@
+/*
+* author: yoshikawa0
+* responsible for loading / adding / deleting items to the cart
+*/
 var storageName="cart";
 /**
  * save item to cart
