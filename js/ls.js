@@ -13,7 +13,12 @@ function save(item) {
 	localStorage.setItem(storageName, JSON.stringify(itemsArray));
 	console.log('added: '+item+' to cart');
 }
-    // загрузить предметы из localStorage и добавить в корзину на страницу
+/**
+ * load cart items array from localStorage.
+ * create li element for each item in cart
+ * set onclick to delete li element on click
+ * and append each li to parent ul element.
+ */
 function loadItems() {
 	itemsArray = getStoreArray(storageName);
 	if (itemsArray.length!=0) {
@@ -29,7 +34,10 @@ function loadItems() {
 		}
 	}	
 }
-// удалить конкретный предмет из localStorage
+/**
+ * remove item with given value from localStorage cart items array
+ * @param {string} item - value of item to remove
+ */
 function clear(item){
 	let itemsArray = getStoreArray(storageName);
 	for(let i=0;i<itemsArray.length;i++){
@@ -40,7 +48,9 @@ function clear(item){
 		}
 	}
 }
-// очистить localStorage и корзину на странице
+/**
+ * clear all items in localStorage cart items array
+ */
 function clearAll() {
 	let ul = document.getElementById(storageName);
 	while (ul.firstChild) {
@@ -48,7 +58,11 @@ function clearAll() {
 	}
 	localStorage.clear();
 }
-// получить массив предметов в корзине
+/**
+ * return locaStorage cart items array
+ * if array don't exist yet - return empty array
+ * @param {string} key - cart items array key
+ */
 function getStoreArray(key) {
 	let itemsArray = localStorage.getItem(key);
 	if (itemsArray == null || itemsArray =="") {
